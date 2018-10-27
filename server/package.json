@@ -1,0 +1,19 @@
+{
+  "name": "very-simple-api-server",
+  "version": "1.0.0",
+  "description": "Very simple API server",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agathver/very-simple-api.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amitosh Swain Mahapatra <amitosh.swain@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
