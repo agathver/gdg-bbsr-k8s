@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: gdg-bbsr-k8s-demo
+spec:
+  selector:
+    matchLabels:
+      app: webservice
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: webservice
+    spec:
+      containers:
+      - name: webservice
+        image: agathver/gdg-bbsr-k8s:1
+        ports:
+          - containerPort: 3000
